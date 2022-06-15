@@ -1,0 +1,141 @@
+.svg-item {
+    width: 100%;
+    font-size: 16px;
+    margin: 0 auto;
+    animation: donutfade 1s;
+}
+
+@keyframes donutfade {
+  /* this applies to the whole svg item wrapper */
+    0% {
+        opacity: .2;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media (min-width: 992px) {
+    .svg-item {
+        width: 80%;
+    }
+}
+
+.donut-ring {
+    stroke: var(--c-g-2);
+}
+
+.donut-segment {
+    stroke-linecap: round;
+    transform-origin: center;
+    stroke: var(--c-p-1);
+}
+
+.donut-segment-1 {
+    stroke: var(--c-gr-1);
+    animation: donut1 3s;
+}
+
+.donut-segment-2 {
+    stroke: var(--c-p-1);
+    animation: donut2 3s;
+}
+
+.donut-segment-3 {
+    stroke: var(--c-y-1);
+    animation: donut3 3s;
+}
+
+/* .segment-1{fill:aqua;}
+.segment-2{fill:#d9e021;}
+.segment-3{fill:#ed1e79;}
+ */
+
+.donut-percent {
+    animation: donutfadelong 1s;
+}
+
+@keyframes donutfadelong {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes donut1 {
+    0% {
+        stroke-dasharray: 0, 100;
+    }
+    100% {
+        stroke-dasharray: 30, 100;
+    }
+}
+
+@keyframes donut2 {
+    0% {
+        stroke-dasharray: 0, 100;
+    }
+    100% {
+        stroke-dasharray: 30, 100;
+    }
+}
+
+@keyframes donut3{
+    0% {
+        stroke-dasharray: 0, 100;
+    }
+    100% {
+        stroke-dasharray: 30, 100;
+    }
+}
+
+.donut-text {
+    font-family: Arial, Helvetica, sans-serif;
+    fill: #FFF;
+}
+
+.donut-label {
+    font-size: 0.28em;
+    font-weight: 700;
+    line-height: 1;
+    fill: #000;
+    transform: translateY(0.25em);
+}
+
+.donut-percent {
+    font-size: 0.5em;
+    line-height: 1;
+    transform: translateY(0.5em);
+    font-weight: bold;
+}
+
+.donut-data {
+    font-size: 0.12em;
+    line-height: 1;
+    transform: translateY(0.5em);
+    text-align: center;
+    text-anchor: middle;
+    color:#666;
+    fill: #666;
+    animation: donutfadelong 1s;
+}
+
+
+
+
+/* ---------- */
+/* just for this presentation */
+
+.svg-item {
+  max-width:30%;
+  display:inline-block;
+}
+
+@media only screen and (max-width: 768px) {
+    .svg-item {
+        max-width:40%;
+        display:inline-block;
+    }   
+}

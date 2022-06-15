@@ -1,0 +1,49 @@
+/* .svg-item {
+    width: 100%;
+    font-size: 16px;
+    margin: 0 auto;
+    animation: donutfade 1s;
+}
+
+@keyframes donutfade {
+    0% {
+        opacity: .2;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media (min-width: 992px) {
+    .svg-item {
+        width: 80%;
+    }
+}
+
+.donut-ring {
+    stroke: var(--c-g-2);
+}
+
+.donut-segment-4 {
+    transform-origin: center;
+    stroke: var(--c-p-1);
+}
+
+.donut-percent {
+    animation: donutfadelong 1s;
+}
+
+@keyframes donutfadelong {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.svg-item {
+  max-width:30%;
+  display:inline-block;
+} */

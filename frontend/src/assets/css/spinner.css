@@ -1,0 +1,32 @@
+.spinner-container {
+    position: absolute;
+    background-color: rgba(107, 107, 107, 0.3);
+  
+  }
+.spinner-container {
+    position: fixed;
+    display: none;
+    min-width:100vw;
+    min-height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 1000000000000000000;    
+    backdrop-filter: blur(5px);
+  }
+  /* .css-10p2e9r { */
+.css-113v409 {
+    position: relative;
+    display: block;
+    top: 50vh;
+    left: 50vw;
+    /* background-color: rosybrown; */
+  }
+  
+.spinner-container > .spinner-text {
+    position: relative;
+    display: block;
+    top: 53vh;
+    left: 47vw;
+    font-size: 1.3rem;  
+  }
+  

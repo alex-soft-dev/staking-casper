@@ -1,0 +1,33 @@
+{
+  "data" : {
+    "light" : {
+      "id": "T_001",
+      "name": "Light",
+      "colors": {
+        "body": "#FFFFFF",
+        "text": "#000000",
+        "button": {
+          "text": "#FFFFFF",
+          "background": "#000000"
+         },
+        "link": { }
+      },
+      "font": "Ubuntu"
+    },
+    
+    "dark" : {
+      "id": "T_007",
+      "name": "Dark",
+      "colors": {
+        "body": "#000000",
+        "text": "#ffffff",
+        "button": { 
+          "text": "#ffffff",
+          "background": "#000000"
+        },
+        "link": { }
+      },
+      "font": "Ubuntu"
+    }
+  }
+}

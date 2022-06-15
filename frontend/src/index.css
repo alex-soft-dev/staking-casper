@@ -1,0 +1,239 @@
+@font-face {
+  font-family: Bw Gradual DEMO;
+  src: url('./assets/font/Bw Gradual DEMO/BwGradualDEMO-Regular.otf');
+}
+@font-face {
+  font-family: Bw Gradual DEMO Bold;
+  src: url('./assets/font/Bw Gradual DEMO/BwGradualDEMO-Bold.otf');
+}
+@font-face {
+  font-family: Bw Gradual DEMO Extra Bold;
+  src: url('./assets/font/Bw Gradual DEMO/BwGradualDEMO-ExtraBold.otf');
+}
+
+* {
+  font-family: Bw Gradual DEMO;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #141317;
+  color: #fff;
+}
+
+/* INPUT */
+input, button {
+  border: 0;
+  outline: 0;
+}
+
+input {
+  padding: .25em 1em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* flex algin */
+.f-i-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.f-j-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+:root {
+  --c-g-1: #787583;
+  --c-g-2: rgba(255, 255, 255, 0.1);
+
+  --c-b-1: #74737c;
+  --c-b-2: #262233;
+  
+  --c-p-1: #6239F2;
+  --c-gr-1: #03DAC6;
+  --c-y-1: #CAF239;
+
+  /* --c-p-1: #e940bf; */
+  
+  --fs-12: 12px;
+}
+
+
+/* BACKGROUND */
+
+/* body back : black */
+.b-b-1 {
+  background: #141317;
+}
+/* panel back */
+.b-b-2 {
+  background: #1E1B2C;
+}
+/* card back */
+.b-b-3 {
+  background: #262233;
+}
+/* card middle back */
+.b-b-4 {
+  background: #141220;
+}
+/* gray back */
+.b-g-1 {
+  color: rgba(255, 255, 255, 0.2);
+}
+.b-g-2 {
+  background: rgba(255, 255, 255, 0.1);
+}
+/* purple color */
+.b-p-1 {
+  background: #6239F2;
+}
+.b-p-2 {
+  background: rgba(98, 57, 242, 0.1);
+}
+/* yellow color for button back */
+.b-y-1 {
+  background: rgba(202, 242, 57, 0.12);
+}
+/* green color for buy back */
+.b-g-1 {
+  background: #03DAC6;
+}
+/* transparent */
+.b-t-1 {
+  background-color: transparent;
+}
+
+.b-w {
+  background: white;
+}
+
+.c-b {
+  color: black;
+}
+
+/* COLOR */
+.c-b-1 {
+  color: #262233;
+}
+/* color for icon, text */
+.c-g-1 {
+  color: #787583;
+}
+/* white for icon, text */
+.c-w-1 {
+  color: #fff;
+}
+/* purple for icon, text */
+.c-p-1 {
+  color: #6239F2;
+}
+/* white for icon, text */
+.c-y-1 {
+  color: #CAF239;
+}
+.c-gr-1 {
+  color: #03DAC6;
+}
+
+/* BORDER  RADIUS*/
+.br-0 {
+  border-radius: 0;
+}
+
+.br-8 {
+  border-radius: 8px;
+}
+
+.br-half {
+  border-radius: 50%;
+}
+
+.brl-25 {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.brl-8 {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.brr-8 {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.brb-8 {
+  border-bottom-right-radius : 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.brt-8 {
+  border-top-right-radius : 8px;
+  border-top-left-radius: 8px;
+}
+
+/* PADDING */
+.p-8 {
+  padding: 8px;
+}
+
+/* BORDER */
+.bd-g-1 {
+  border: 1px solid #262233;
+}
+
+
+.fs-12 {
+  font-size: 12px;
+}
+
+button.btn, button.btn:hover {
+  color: white;
+}
+
+.fw-nw {
+  flex-wrap: nowrap;
+}
+
+.fs-8 {
+  font-size: 8px;
+}
+
+.fs-10 {
+  font-size: 10px;
+}
+
+.fs-17 {
+  font-size: 17px;
+}
+
+.fs-21 {
+  font-size: 21px;
+}
+
+.c-pp-1 {
+  color: #e940bf;
+}
+
+.cur-ptr {
+  cursor: pointer;
+}
+
+.alg-m {
+  align-self: center;
+}

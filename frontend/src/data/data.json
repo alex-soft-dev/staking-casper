@@ -1,0 +1,8 @@
+{
+    "Header": {
+        "logo": {
+            "image": "../assets/img/header/xxLogo.png",
+            "title": "CasperPad"
+        }
+    }
+}
